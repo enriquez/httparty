@@ -109,14 +109,12 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<activesupport>, ["~> 2.3"])
       s.add_development_dependency(%q<cucumber>, ["~> 0.7"])
       s.add_development_dependency(%q<fakeweb>, ["~> 1.2"])
-      s.add_development_dependency(%q<mongrel>, ["~> 1.1"])
       s.add_development_dependency(%q<rspec>, ["~> 1.3"])
     else
       s.add_dependency(%q<crack>, ["= 0.1.8"])
       s.add_dependency(%q<activesupport>, ["~> 2.3"])
       s.add_dependency(%q<cucumber>, ["~> 0.7"])
       s.add_dependency(%q<fakeweb>, ["~> 1.2"])
-      s.add_dependency(%q<mongrel>, ["~> 1.1"])
       s.add_dependency(%q<rspec>, ["~> 1.3"])
     end
   else
@@ -124,7 +122,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<activesupport>, ["~> 2.3"])
     s.add_dependency(%q<cucumber>, ["~> 0.7"])
     s.add_dependency(%q<fakeweb>, ["~> 1.2"])
-    s.add_dependency(%q<mongrel>, ["~> 1.1"])
     s.add_dependency(%q<rspec>, ["~> 1.3"])
   end
 end
